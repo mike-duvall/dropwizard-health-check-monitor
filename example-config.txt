@@ -1,0 +1,2 @@
+http://somehost1.com:9591/healthcheck
+http://somehost2:9591/healthcheck
