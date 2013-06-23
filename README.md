@@ -13,10 +13,11 @@ where
 example-config.txt is a file containing the URL's of the healthcheck page for each dropwizard service instance.
 
 
+I currently use this by having  my CI tool run this healthcheck every 5 minutes.  If it fails, my build radiator turns red and I get an email.
 
-This is the first version.  I'll be enhanching this over time.
 
-The way I currently use this is I have my CI tool run this healthcheck every 5 minutes.  If it fails, my build radiator turns red and I get an email.
+This is the initial version.  I'll be enhanching this over time.
+
 
 ## Next steps
 
