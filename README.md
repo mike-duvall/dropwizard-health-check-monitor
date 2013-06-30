@@ -21,5 +21,6 @@ This is the initial version.  I'll be enhanching this over time.
 
 ## Next steps
 
+* Update to check for non-200 return code rather than looking for the word "ERROR" in the response
 * Add better error reporting
 * Run checks for all servers instead of stopping if one fails
